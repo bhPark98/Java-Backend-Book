@@ -1,0 +1,17 @@
+* 요청은 HTML 문서로부터 날아온다.
+웹 서비스에서 사용자들은 웹 브라우저를 통해 HTTP 요청을 API 서버로 보낸다. 이때, HTML 문서가 웹 브라우저에 띄워져 있기 때문에 HTML 문서로부터 HTTP 요청이 날아온다고 볼 수 있는데, 이것을 이해하지 못하면 백엔드 웹 애플리케이션을 제대로 개발할 수 없다.
+따라서 백엔드 개발자에게 있어 HTML에 대한 기본적인 이해는 필수이다.
+
+* HTML의 구조
+1. HTML 태그에서 사용되는 용어
+HTML은 홑화살괄호(<>)로 이루어진 '<html>' 형태의 '태그'라는 단위로 구성되어 있다. HTML 태그는 이름과 속성, 값을 가지며, 속성에 해당하는 값을 지정할 때는 속성 다음에 등호를 붙이고 값은 큰 따옴표(")로 감싸줘야한다.
+
+ex) HTML의 기본 구조
+<form action ="./article" method = "post">
+    <input type = "text" name = "title">
+    <input type = "text" name = "content">
+    <input type = "submit">
+</form>
+
+* form 태그와 input 태그
+HTML의 기본 태그로는 form 태그와 input 태그가 있다. 둘은 서로 다른 모습을 가지고 있는데, form 태그의 경우 
